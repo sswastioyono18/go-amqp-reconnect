@@ -5,9 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/streadway/amqp"
-
-	"github.com/isayme/go-amqp-reconnect/rabbitmq"
+	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/sswastioyono18/go-amqp-reconnect/rabbitmq"
 )
 
 func main() {

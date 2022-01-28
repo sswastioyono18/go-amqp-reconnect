@@ -5,7 +5,7 @@ import (
 
 	"sync/atomic"
 
-	"github.com/streadway/amqp"
+	amqp "github.com/rabbitmq/amqp091-go"
 )
 
 const delay = 3 // reconnect after delay seconds
